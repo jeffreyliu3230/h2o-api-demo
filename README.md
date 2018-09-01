@@ -459,6 +459,9 @@ parse_setup_result
 
 
 
+Set the response variable to factor so that H2O will train a classification model instead of a regression model
+
+
 
 ```python
 parse_setup_result['column_types'][-1] = 'Enum'
