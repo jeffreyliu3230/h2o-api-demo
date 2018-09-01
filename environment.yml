@@ -1,0 +1,13 @@
+name: h2oapi
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.7
+- jupyter
+- jupyterlab
+- ipykernel
+- requests
+- urllib3
+- pip:
+    - environment_kernels
